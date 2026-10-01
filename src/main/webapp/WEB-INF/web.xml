@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>Web_Application</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.xhtml</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.xhtml</welcome-file>
+  </welcome-file-list>
+  
+<context-param>
+	<param-name>lang1</param-name>
+	<param-value>C Language</param-value>
+</context-param>
+<context-param>
+	<param-name>lang2</param-name>
+	<param-value>C++</param-value>
+</context-param>
+<context-param>
+	<param-name>lang3</param-name>
+	<param-value>Core Java</param-value>
+</context-param>
+<context-param>
+	<param-name>lang4</param-name>
+	<param-value>Java Script</param-value>
+</context-param>
+
+
+  <servlet>
+  	<servlet-name>LougoutServlet</servlet-name>
+  	<servlet-class>com.royal.controller.LougoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LougoutServlet</servlet-name>
+  	<url-pattern>/LougoutServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>abc</servlet-name>
+  	<servlet-class>com.royal.controller.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc</servlet-name>
+  	<url-pattern>/xyz</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>mango</servlet-name>
+  	<servlet-class>com.royal.controller.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>mango</servlet-name>
+  	<url-pattern>/aam</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>Table</servlet-name>
+  	<servlet-class>com.royal.controller.TableServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Table</servlet-name>
+  	<url-pattern>/tab</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>ThirdServlet</servlet-name>
+  	<servlet-class>com.royal.controller.ThirdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ThirdServlet</servlet-name>
+  	<url-pattern>/ThirdServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>FouthServlet</servlet-name>
+  	<servlet-class>com.royal.controller.FourthServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FouthServlet</servlet-name>
+  	<url-pattern>/FourthServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Table1Servlet</servlet-name>
+  	<servlet-class>com.royal.controller.Table1Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Table1Servlet</servlet-name>
+  	<url-pattern>/tableServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Table2Servlet</servlet-name>
+  	<servlet-class>com.royal.controller.Table2Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Table2Servlet</servlet-name>
+  	<url-pattern>/Table2Servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>com.royal.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>DiamondServlet</servlet-name>
+  	<servlet-class>com.royal.controller.DiamondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DiamondServlet</servlet-name>
+  	<url-pattern>/DiamondServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>StudentServlet</servlet-name>
+  	<servlet-class>com.royal.controller.StudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StudentServlet</servlet-name>
+  	<url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>RequestHeaderInfoServlet</servlet-name>
+  	<servlet-class>com.royal.controller.RequestHeaderInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RequestHeaderInfoServlet</servlet-name>
+  	<url-pattern>/RequestHeaderInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>FifthServlet</servlet-name>
+  	<servlet-class>com.royal.controller.FifthServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FifthServlet</servlet-name>
+  	<url-pattern>/FifthServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>SixthServlet</servlet-name>
+  	<servlet-class>com.royal.controller.SixthServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SixthServlet</servlet-name>
+  	<url-pattern>/SixthServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>SeventhServlet</servlet-name>
+  	<servlet-class>com.royal.controller.SeventhServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SeventhServlet</servlet-name>
+  	<url-pattern>/SeventhServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>EightServlet</servlet-name>
+  	<servlet-class>com.royal.controller.EightServlet</servlet-class>
+  	
+  	<init-param>
+  		<param-name>URLNAME :</param-name>
+  		<param-value>jdbc:mysql://locahost:3306/vidhidb</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>DRIVERCLASS :</param-name>
+  		<param-value>com.mysql.cj.jdbc.Driver</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>USERNAME :</param-name>
+  		<param-value>root</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>PASSWORD :</param-name>
+  		<param-value>root</param-value>
+  	</init-param>
+  	
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EightServlet</servlet-name>
+  	<url-pattern>/EightServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>EmployeePortalServlet</servlet-name>
+  	<servlet-class>com.royal.controller.EmployeePortalServlet</servlet-class>
+  	
+  	<init-param>
+  		<param-name>CompanyName</param-name>
+  		<param-value>Royal Techosoft Pvt Ltd</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>Department</param-name>
+  		<param-value>Software Development</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>Support Email</param-name>
+  		<param-value>support@company.com</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>Office Location</param-name>
+  		<param-value>Ahmedabad</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>Maximum Employees</param-name>
+  		<param-value>100</param-value>
+  	</init-param>
+  	
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EmployeePortalServlet</servlet-name>
+  	<url-pattern>/EmployeePortalServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+  <servlet-name>Ninethservlet</servlet-name>
+  	<servlet-class>com.royal.controller.Ninethservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Ninethservlet</servlet-name>
+  	<url-pattern>/Ninethservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Tenthservlet</servlet-name>
+  	<servlet-class>com.royal.controller.Tenthservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Tenthservlet</servlet-name>
+  	<url-pattern>/Tenthservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>EleventhServlet</servlet-name>
+  	<servlet-class>com.royal.controller.EleventhServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EleventhServlet</servlet-name>
+  	<url-pattern>/EleventhServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>TwelthServlet</servlet-name>
+  	<servlet-class>com.royal.controller.TwelthServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TwelthServlet</servlet-name>
+  	<url-pattern>/TwelthServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ThirteenServlet</servlet-name>
+  	<servlet-class>com.royal.controller.ThirteenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ThirteenServlet</servlet-name>
+  	<url-pattern>/ThirteenServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>FourteenServlet</servlet-name>
+  	<servlet-class>com.royal.controller.FourteenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FourteenServlet</servlet-name>
+  	<url-pattern>/FourteenServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>FifteenServlet</servlet-name>
+  	<servlet-class>com.royal.controller.FifteenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FifteenServlet</servlet-name>
+  	<url-pattern>/FifteenServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>SixteenServlet</servlet-name>
+  	<servlet-class>com.royal.controller.SixteenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SixteenServlet</servlet-name>
+  	<url-pattern>/SixteenServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>SeventeenServlet</servlet-name>
+  	<servlet-class>com.royal.controller.SeventeenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SeventeenServlet</servlet-name>
+  	<url-pattern>/SeventeenServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>EighteenServlet</servlet-name>
+  	<servlet-class>com.royal.controller.EighteenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EighteenServlet</servlet-name>
+  	<url-pattern>/EighteenServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+  <servlet-name>GoogleServlet</servlet-name>
+  	<servlet-class>com.royal.controller.GoogleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GoogleServlet</servlet-name>
+  	<url-pattern>/GoogleServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
